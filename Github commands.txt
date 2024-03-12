@@ -1,0 +1,118 @@
+=> All Commands :
+
+git config --global user.name "name"
+git config --global user.email "email"
+git config --global init.defaultBranch main
+
+git COMMAND -h
+git help COMMAND
+
+git init
+git add FILENAME
+git add --all
+git add -A
+git add .
+git status
+git diff
+git rm FILENAME
+git mv "old name" "new name"
+git commit -m "message"
+
+git log
+git log --oneline
+git commit -m "new message" --amend
+git log -p
+git reset commit id
+git rebase -i --root
+
+git branch
+git branch branchname
+git switch branchname
+git switch -c brachname
+git merge -m "message" branchname
+git merge brachname
+git branch -d branchname
+
+git remote add origin URl
+git branch -M main
+git push -u origin main
+git push --all
+
+git fetch
+git merge
+git pull
+
+=> Explanation :
+
+Set configuration values for your username and email
+git config --global user.name "NAME"
+git config --global user.email "EMAIL"
+
+Set default branch to main
+git config --global init.default branch main
+
+Help
+git help COMMAND
+git COMMAND -h
+
+Initialize a new git repository
+git init
+
+Add a file to the staging area
+git add FILE
+
+Add all file changes to the staging area
+git add --all
+git add -A
+git add .
+
+Check the unstaged changes
+git diff
+
+Commit the staged changes
+git commit -m "MESSAGE"
+
+Check the state of the working directory and the staging area
+git status
+
+Remove a file from the index and working directory
+git rm FILENAME
+
+Rename a file
+git mv (OLD NAME) (NEW NAME)
+
+Clone a repository
+git clone REPOSITORY URL
+
+Reset staging area to the last commit
+git reset
+
+List the commit history
+git log
+
+List all the local branches
+git branch
+
+Create a new branch
+git branch BRANCH NAME
+
+Rename the current branch
+git branch -m NEW BRANCH NAME
+
+Delete a branch
+git branch -d BRANCH NAME
+
+Switch to another branch
+git switch BRANCH NAME
+
+Merge specified branch into the current branch
+git merge BRANCH NAME
+
+Create a connection to a remote repository
+git remote add (NAME) (REPOSITORY URL)
+
+Push the committed changes to a remote directory
+git push (REMOTE) (BRANCH)
+
+Download the content from a remote repository
+git pull REMOTE
